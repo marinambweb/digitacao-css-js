@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	background: plum;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.nome-canal {
+	position: absolute;
+
+	height: 650px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 38px;
+	color: #fff;
+	text-shadow: #000 0.1em 0.1em 0.2em
+}
+
+.logo-canal {
+	position: absolute;
+	bottom: 20%;
+}
+.logo-canal img {
+	width: 30em;
+	height: auto;
+}
+
+@media (max-width: 780px) {
+	.nome-canal {
+		height: 520px;
+		font-size: 20px;
+	}
+	
+	.logo-canal {
+		bottom: 30%;
+	}
+
+	.logo-canal img {
+		width: 100%;
+		height: auto;
+	}
+}

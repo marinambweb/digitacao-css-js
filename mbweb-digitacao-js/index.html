@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- plugs responsáveis pelo efeito, devem ser apresentados sempre que for usar o efeito -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+
+    <title>Mb Web - Tutoriais</title>
+</head>
+<body>
+    
+	<div class="container">
+
+       <div class="nome-canal">
+            <span class="palavras"></span>
+        </div>
+
+        <div class="logo-canal">
+            <img src="mari.png" alt="logotipo do canal">
+        </div>
+
+    </div>    
+
+    <script type="text/javascript">
+        $(function(){
+            $(".palavras").typed({
+              strings: [" { Mb Web Tutoriais }"], //palavras ou frases que serão exibidas
+                typeSpeed: 50, //tempo de alteração de palavras
+                loop: true,  //loop para retornar desde a primeira palavra
+                backDelay: 1000, 
+            });
+        });
+      </script>
+    
+
+</body>
+</html>
