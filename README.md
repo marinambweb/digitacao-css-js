@@ -2,4 +2,6 @@
  Material Mb Web Tutoriais - Efeito digitação (**Typed**) com JS.
  Vídeo disponível no Canal do _YouTube_.
 
-![imagem](assets/mb-web.png)
+<p align="center">
+ <img src="assets/mb-web.png">
+</p>
